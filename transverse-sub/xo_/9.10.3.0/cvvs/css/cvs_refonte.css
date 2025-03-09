@@ -1,0 +1,8 @@
+/*****************************************************************************************
+ LE STYLE EST DANS LA TOOLBOX
+*****************************************************************************************/
+
+/* On force la hauteur du body en Auto pour le FrameResizer */
+.tb-user-connected{
+	height: auto;
+}

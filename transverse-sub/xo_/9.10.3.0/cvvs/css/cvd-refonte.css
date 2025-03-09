@@ -1,0 +1,10 @@
+/* CHOIX ANCIEN CLAVIER SUR 2 LIGNES */
+[data-tb-cvd="old"] [data-tb-cvd-keys] {
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 6px;
+}
+
+[data-tb-cvd="old"] [data-tb-cvd-keys] span:empty {
+    display: none;
+}
+    

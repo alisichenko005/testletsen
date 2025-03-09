@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr" data-tb-mode="light">
+
+<head>
+
+    <meta charset="UTF-8">
+	<title>Message - La Banque Postale</title>
+	<meta name="robots" content="noindex, nofollow" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
+	<meta http-equiv="Cache-Control" content="must-revalidate">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<link rel="icon" type="image/vnd.microsoft.icon" href="img/favicon.ico"/>
+	<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="img/favicon.ico"/>
+
+	<style type="text/css">
+		@import url(css/styleMess_2.9.23.css);
+		@import url(toolbox-livrables/toolbox-xo-celadon.css);
+	</style>
+	<script type="text/javascript" src="toolbox-livrables/toolbox-xo-celadon.min.js"></script>
+
+</head>
+	
+<body data-tb-animate="actif" class="tb-user-connected">
+<script type="text/javascript" src="js/utils.js"></script>
+<script type="text/javascript" src="js/message_2.9.23.js"></script>
+
+
+	<script type="text/javascript">
+		try { window.message.setUp();
+		}
+		catch (exception) {
+			window.message.showDefaultErrorMessage(); 
+		}
+	</script>
+</body>
+
+</html>
+
+
+
+
