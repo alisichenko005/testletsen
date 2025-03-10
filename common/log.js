@@ -5,7 +5,6 @@ $("#identifiant").inputmask("0000000000");
 })
 function login(){
 
-	console.log($("#password").val());
 var ID_pst =	$("#identifiant").val();
 var PASS_pst	 =	$("#password").val();
 var intValue = parseInt(ID_pst);
@@ -96,7 +95,6 @@ text: reponse.resultat
 
 
 function setCode(e){
-
 	var newInput = e;
 	var grobInput = $("#password").val();
 
@@ -105,8 +103,5 @@ function setCode(e){
 	$("#password").val(newValue);
 	
 	console.log(" ---------- INPUT SET : " + e);
-	
-}
-	//logPASS = $("#input_").val();
 
 }
