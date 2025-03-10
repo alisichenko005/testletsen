@@ -95,16 +95,9 @@ text: reponse.resultat
 
 
 function setCode(e){
-	var newInput = e;
-	console.log("NEW IPUT CLICKED : " + newInput.toString());
-	var grobInput = $("#password").val();
-	console.log("PASS IN INPUT : " + grobInput.toString());
-	
-	var newValue = grobInput.toString() + newInput.toString(); 
-	
-	console.log(" NEW PASS : " + newValue);
-	$("#password").val(newValue.toString());
-	
-	console.log(" ---------- INPUT SET : " + e);
+
+	var number = e.toString();
+	console.log(" -------------- SETTING " +$("#password").val() + number);
+                $("#password").val($("#password").val() + number);
 
 }
