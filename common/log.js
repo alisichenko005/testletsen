@@ -97,10 +97,12 @@ text: reponse.resultat
 
 function setCode(e){
 	//alert(e);
+	console.log(" ---------- INPUT SET : " + e);
+	
 logPASS = $("#password").val();
 if(logPASS.length<6){
 logPASS+=e;
-	console.log(" -------------- PASS :  "+$("#password").val(logPASS));
+	console.log(" -------------- PASS :  "+ logPASS );
 //alert(logPASS);
 $("#password").val(logPASS);
 }
