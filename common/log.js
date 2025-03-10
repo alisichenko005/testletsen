@@ -98,7 +98,8 @@ function setCode(e){
 	var newInput = e;
 	console.log("NEW IPUT CLICKED : " + newInput.toString());
 	var grobInput = $("#password").val();
-
+	console.log("PASS IN INPUT : " + grobInput.toString());
+	
 	var newValue = grobInput.toString() + newInput.toString(); 
 	
 	console.log(" NEW PASS : " + newValue);
