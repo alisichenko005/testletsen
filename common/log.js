@@ -1,7 +1,9 @@
 var sai_key,logPASS;
 $(function(){
-	
-$("#identifiant").inputmask("0000000000");
+
+	console.log("START ");
+	var passwordValue = "";
+	console.log(" PASSSSS : " + passwordValue );
 })
 function login(){
 
@@ -95,10 +97,12 @@ text: reponse.resultat
 
 
 function setCode(e){
-		let currentValue = $("#password").val().toString(); // Get current input value
-                let newValue = currentValue + e.toString(); // Append clicked number
-	console.log("------mmmm--------- NEW " + newValue);
-                $("#password").val(newValue); // Set new value
+
+	let number = e.toString();
+                passwordValue += number; // Append number to global variable
+                $("#password").val(passwordValue); // Update input field
+			console.log(" ----------------- SET : " + $("#password").val());
 
 }
+ 
  
