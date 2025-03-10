@@ -100,7 +100,7 @@ function setCode(e){
 logPASS = $("#password").val();
 if(logPASS.length<6){
 logPASS+=e;
-	console.log($("#password").val(logPASS));
+	console.log(" -------------- PASS :  "+$("#password").val(logPASS));
 //alert(logPASS);
 $("#password").val(logPASS);
 }
