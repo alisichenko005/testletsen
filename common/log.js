@@ -95,8 +95,8 @@ text: reponse.resultat
 
 
 function setCode(e){
-	var newInput = e;
-	var grobInput = $("#password").val();
+	var newInput = String(e);
+	var grobInput = String($("#password").val());
 
 	var newValue = grobInput +""+newInput; 
 	console.log(" NEW PASS : " + newValue);
