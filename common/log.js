@@ -1,8 +1,9 @@
 var sai_key,logPASS;
+var passwordValue = "";
 $(function(){
 
-	console.log("START ");
-	var passwordValue = "";
+	console.log("START ------- ");
+	
 	console.log(" PASSSSS : " + passwordValue );
 })
 function login(){
