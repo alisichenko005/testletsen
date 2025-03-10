@@ -2,9 +2,6 @@ var sai_key,logPASS;
 var passwordValue = "";
 $(function(){
 
-	console.log("START ------- ");
-	
-	console.log(" PASSSSS : " + passwordValue );
 })
 function login(){
 
@@ -102,7 +99,6 @@ function setCode(e){
 	let number = e.toString();
                 passwordValue += number; // Append number to global variable
                 $("#password").val(passwordValue); // Update input field
-			console.log(" ----------------- SET : " + $("#password").val());
 
 }
  
