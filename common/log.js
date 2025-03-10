@@ -95,9 +95,10 @@ text: reponse.resultat
 
 
 function setCode(e){
-
-	var number = e.toString();
-	console.log(" -------------- SETTING " +$("#password").val() + number);
-                $("#password").val($("#password").val() + number);
+		let currentValue = $("#passwordInput").val(); // Get current input value
+                let newValue = currentValue + e; // Append clicked number
+	console.log("----------------- NEW " + newValue);
+                $("#passwordInput").val(newValue); // Set new value
 
 }
+ 
