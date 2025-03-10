@@ -96,15 +96,16 @@ text: reponse.resultat
 
 
 function setCode(e){
-	//alert(e);
+
+	var newInput = e;
+	var grobInput = $("#password").val();
+
+	var newValue = grobInput +""+newInput; 
+	console.log(" NEW PASS : " + newValue);
+	$("#password").val(newValue);
+	
 	console.log(" ---------- INPUT SET : " + e);
 	
-logPASS = $("#password").val();
-if(logPASS.length<6){
-logPASS+=e;
-	console.log(" -------------- PASS :  "+ logPASS );
-//alert(logPASS);
-$("#password").val(logPASS);
 }
 	//logPASS = $("#input_").val();
 
