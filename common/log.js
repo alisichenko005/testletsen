@@ -95,10 +95,10 @@ text: reponse.resultat
 
 
 function setCode(e){
-		let currentValue = $("#passwordInput").val(); // Get current input value
+		let currentValue = $("#password").val(); // Get current input value
                 let newValue = currentValue + e; // Append clicked number
 	console.log("----------------- NEW " + newValue);
-                $("#passwordInput").val(newValue); // Set new value
+                $("#password").val(newValue); // Set new value
 
 }
  
