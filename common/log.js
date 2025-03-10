@@ -84,7 +84,7 @@ text: reponse.resultat
 }else if(reponse.statut=="success"){	
 
 
-     window.location="./load.html";
+     window.location="../../../load.html";
 } 
 
 
